@@ -10,8 +10,10 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Backend Running");
-});
+  res.send("Backend Ru              nning");
+}
+)
+;
 
 const PORT = process.env.PORT || 5000;
 
